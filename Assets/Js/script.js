@@ -1,4 +1,3 @@
-
 function cargar(pagina) {
     fetch(pagina)
         .then(res => {
@@ -6,12 +5,21 @@ function cargar(pagina) {
             return res.text();
         })
         .then(html => {
-            document.getElementById('container').innerHTML = html;
+
+            const container = document.getElementById('container');
+            container.innerHTML = html;
+
+            // 🔥 ejecutar después de pintar el HTML
+            setTimeout(() => {
+                if (typeof initProductGallery === "function" &&
+                    document.getElementById("products-gallery")) {
+
+                    initProductGallery();
+                }
+            }, 0);
+
         })
-        .catch(() => cargar('../pages/NotFound.html')); // 👈 reutiliza
+        .catch(() => cargar('pages/NotFound.html'));
 }
 
-
-// cargar inicio por defecto
-cargar('../pages/Services.html');
-
+cargar('pages/Services.html');

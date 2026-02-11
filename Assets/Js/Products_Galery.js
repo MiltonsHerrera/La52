@@ -1,42 +1,16 @@
-// =============================
-// LÓGICA DE LA GALERÍA
-// =============================
+function initProductGallery() {
+    const contenedor = document.getElementById("products-gallery");
 
-document.addEventListener("DOMContentLoaded", () => {
+    if (!contenedor) return;
 
-    const container = document.getElementById("Product_Items");
-    const viewer = document.getElementById("viewer");
-    const viewerImg = document.getElementById("viewerImg");
-    const closeBtn = document.getElementById("close");
+    const basePath = "Assets/image/Products/";
 
-    PRODUCT_IMAGES.forEach(file => {
-
-        // crear contenedor miniatura
-        const div = document.createElement("div");
-        div.className = "val_img";
-
-        // crear imagen
+    PRODUCT_IMAGES.forEach(imgName => {
         const img = document.createElement("img");
-        img.src = `/Assets/image/Products/${file}`;
-        img.loading = "lazy"; // mejora rendimiento
 
-        // abrir visorsubior 
-        img.addEventListener("click", () => {
-            viewerImg.src = img.src;
-            viewer.classList.remove("hidden");
-        });
+        img.src = basePath + imgName;
+        img.classList.add("product-img");
 
-        div.appendChild(img);
-        container.appendChild(div);
+        contenedor.appendChild(img);
     });
-
-    // cerrar visor
-    closeBtn.onclick = () => viewer.classList.add("hidden");
-
-    viewer.onclick = (e) => {
-        if (e.target === viewer) viewer.classList.add("hidden");
-    };
-
-});
-
-
+}
