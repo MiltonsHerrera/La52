@@ -18,6 +18,4 @@ const PRODUCT_IMAGES = [
     "Michelin.jpg",
     "Momo.jpg",
     "Pirelli.jpg"
-
-
 ];
