@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0.2%;
+    box-sizing: border-box;
+}
+
+#header {
+    max-width: 100%;
+    min-height: 20%;
+    text-align: center;
+
+}
+
+#header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+#header_up {
+    max-width: 100%;
+    max-height: 50%;
+    text-align: center;
+}
+
+#container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 20px 15px 15px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#footer {
+    max-width: 100%;
+    min-height: 30%;
+    text-align: center;
+}
