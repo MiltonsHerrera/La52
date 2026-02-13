@@ -1,9 +1,3 @@
-
-// =============================
-// DATOS DE LA GALERÍA
-// Solo nombres de archivo
-// =============================
-
 const PRODUCT_IMAGES = [
     "Rockford_Fosgate.jpg",
     "Bridgestone.jpg",

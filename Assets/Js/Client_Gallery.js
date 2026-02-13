@@ -3,7 +3,7 @@ function initClientGallery() {
 
     if (!contenedor) return;
 
-    const basePath = "Assets/image/ClientsUS/";
+    const basePath = "Assets/image/ClientsUs/";
 
     CLIENT_IMAGES.forEach(imgName => {
         const img = document.createElement("img");
