@@ -1,7 +1,7 @@
 const CLIENT_IMAGES = [
     "acar.jpg",
     "agricolaAutomotriz.jpg",
-    "bomberos-voluntarios.png",
+    "bomberos-voluntarios.jpg",
     "farallonesRenault.jpg",
     "incauca.jpg",
     "norteSur.jpg",
