@@ -15,6 +15,11 @@ function cargar(pagina) {
                     document.getElementById("products-gallery")) {
 
                     initProductGallery();
+
+                }
+                if (typeof initClientGallery === "function" &&
+                    document.getElementById("clients-gallery")) {
+                    initClientGallery();
                 }
             }, 0);
 
