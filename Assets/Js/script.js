@@ -21,6 +21,11 @@ function cargar(pagina) {
                     document.getElementById("clients-gallery")) {
                     initClientGallery();
                 }
+                if (typeof initServices === "function" &&
+                    document.getElementById("services-container")) {
+                    initServices();
+                }
+
             }, 0);
 
         })
