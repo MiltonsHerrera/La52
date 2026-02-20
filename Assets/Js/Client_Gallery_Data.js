@@ -8,5 +8,6 @@ const CLIENT_IMAGES = [
     "suzuki.jpg",
     "Dar.jpg",
     "Herramientas_Diesel.jpg",
-    "toroAutos.jpg"
+    "toroAutos.jpg",
+    "toyota.jpg"
 ];
