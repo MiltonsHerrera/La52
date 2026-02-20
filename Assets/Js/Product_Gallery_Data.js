@@ -7,5 +7,7 @@ const PRODUCT_IMAGES = [
     "Blacklion.jpg",
     "Dunlop.jpg",
     "Michelin.jpg",
-    "Pirelli.jpg"
+    "Pirelli.jpg",
+    "yokohama.jpg",
+    "mickyThompson.jpg"
 ];
