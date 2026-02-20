@@ -9,5 +9,16 @@ const PRODUCT_IMAGES = [
     "Michelin.jpg",
     "Pirelli.jpg",
     "yokohama.jpg",
-    "mickyThompson.jpg"
+    "mickyThompson.jpg",
+    "aozoom.jpg",
+    "doublecoin.jpg",
+    "journey.jpg",
+    "laufenn.jpg",
+    "zmax.jpg",
+    "continental.jpg",
+    "goodyear.jpg",
+    "nankang.jpg",
+    "sailun.jpg",
+    "toyotire.jpg",
+    "wandatyre.jpg",
 ];
