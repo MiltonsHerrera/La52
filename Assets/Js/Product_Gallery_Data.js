@@ -21,4 +21,5 @@ const PRODUCT_IMAGES = [
     "sailun.jpg",
     "toyotire.jpg",
     "wandatyre.jpg",
+    "orustar.jpg"
 ];
